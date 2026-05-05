@@ -407,7 +407,7 @@ Mensagem: ${formData.message || 'Sem mensagem adicional'}`;
               </button>
               <button 
                 type="button"
-                className={`p-8 rounded-[3rem] border-4 transition-all flex flex-col items-center gap-3 ${formData.attending === 'nao' ? 'bg-brand-dark text-white border-brand-dark shadow-xl scale-105' : 'bg-white border-slate-100 text-slate-300 hover:border-brand-primary/20'}`}
+                className={`p-8 rounded-[3.5rem] border-4 transition-all flex flex-col items-center gap-3 ${formData.attending === 'nao' ? 'bg-brand-dark text-white border-brand-dark shadow-xl scale-105' : 'bg-white border-slate-100 text-slate-300 hover:border-brand-primary/20'}`}
                 onClick={() => setFormData({...formData, attending: 'nao'})}
               >
                 <div className="text-4xl">😿</div>
