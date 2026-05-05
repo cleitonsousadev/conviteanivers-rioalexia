@@ -95,9 +95,9 @@ Mensagem: ${formData.message || 'Sem mensagem adicional'}`;
       <motion.div 
         initial={{ y: -100, x: "-50%" }}
         animate={{ y: 0, x: "-50%" }}
-        className="fixed top-6 left-1/2 z-50 bg-red-600 text-white px-10 py-4 rounded-full shadow-2xl font-black flex items-center gap-3 text-lg md:text-xl border-4 border-white/30 backdrop-blur-md uppercase tracking-wider"
+className="fixed top-2 left-1/2 z-50 bg-red-600 text-white px-6 py-3 rounded-full shadow-2xl font-black flex items-center gap-2 text-sm md:text-lg md:px-10 md:py-4 md:gap-3 md:text-lg md:text-xl border-4 border-white/30 backdrop-blur-md uppercase tracking-wider -translate-x-1/2 transform"
       >
-        <ShieldCheck className="w-6 h-6 animate-pulse" />
+<ShieldCheck className="w-4 h-4 md:w-6 animate-pulse" />
         🤫 É SURPRESA! NÃO CONTE PRA ELA!
       </motion.div>
 
