@@ -136,7 +136,7 @@ className="fixed top-2 left-1/2 z-50 bg-red-600 text-white px-6 py-3 rounded-ful
               transition={{ type: "spring", delay: 0.2 }}
               className="w-56 h-56 md:w-72 md:h-72 bg-white p-4 rounded-3xl shadow-2xl relative z-10 overflow-hidden ring-8 ring-brand-primary/5"
             >
-              <img src="/img/bem.png" alt="Aléxia Parreiras" className="w-full h-full object-cover rounded-2xl" />
+              <img src="public/img/bem.png" alt="Aléxia Parreiras" className="w-full h-full object-cover rounded-2xl" />
             </motion.div>
             
             {/* Floating Badges */}
@@ -374,7 +374,7 @@ className="fixed top-2 left-1/2 z-50 bg-red-600 text-white px-6 py-3 rounded-ful
         <div className="max-w-xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-display font-black text-brand-dark mb-6">Confirmar?</h2>
-            <p className="text-slate-500 text-lg font-medium">Não deixe para a última hora, Bruna e Marina estão ansiosas!</p>
+            <p className="text-slate-500 text-lg font-medium">Não deixe para a última hora, Bruna e Cleiton estão ansiosos!</p>
           </div>
 
           <motion.form 
