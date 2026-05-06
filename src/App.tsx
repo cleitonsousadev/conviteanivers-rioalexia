@@ -446,7 +446,7 @@ Mensagem: ${formData.message || 'Sem mensagem adicional'}`;
             </AnimatePresence>
 
             <div className="space-y-4">
-              <label className="text-xs font-black uppercase tracking-[0.2em] text-brand-primary ml-1 block">É só nos comunicar?</label>
+              <label className="text-xs font-black uppercase tracking-[0.2em] text-brand-primary ml-1 block">É só nos comunicar</label>
               <div className="grid grid-cols-2 gap-4">
                 {EVENT_INFO.contacts.map((contact) => (
                   <button
