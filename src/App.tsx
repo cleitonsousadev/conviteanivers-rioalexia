@@ -136,7 +136,7 @@ className="fixed top-2 left-1/2 z-50 bg-red-600 text-white px-6 py-3 rounded-ful
               transition={{ type: "spring", delay: 0.2 }}
               className="w-56 h-56 md:w-72 md:h-72 bg-white p-4 rounded-3xl shadow-2xl relative z-10 overflow-hidden ring-8 ring-brand-primary/5"
             >
-              <img src="public/img/bem.png" alt="Aléxia Parreiras" className="w-full h-full object-cover rounded-2xl" />
+              <img src="/img/bem.png" alt="Aléxia Parreiras" loading="eager" referrerPolicy="no-referrer" className="w-full h-full object-cover rounded-2xl" />
             </motion.div>
             
             {/* Floating Badges */}
@@ -448,7 +448,7 @@ className="fixed top-2 left-1/2 z-50 bg-red-600 text-white px-6 py-3 rounded-ful
                   <button
                     key={contact.name}
                     type="button"
-                    onClick={() => setFormData({...formData, contact: contact.name})}
+                    onClick={() => setFormData({ ...formData, contact: contact.name })}
                     className={`p-5 rounded-3xl border-2 font-black transition-all ${formData.contact === contact.name ? 'bg-brand-primary text-white border-brand-primary shadow-lg' : 'bg-slate-50 border-transparent text-slate-400 hover:bg-slate-100'}`}
                   >
                     {contact.name}
@@ -456,6 +456,7 @@ className="fixed top-2 left-1/2 z-50 bg-red-600 text-white px-6 py-3 rounded-ful
                 ))}
               </div>
             </div>
+
 
             <div className="space-y-4">
               <label className="text-xs font-black uppercase tracking-[0.2em] text-brand-primary ml-1 block">Alguma restrição alimentar ou mensagem fofa?</label>
