@@ -30,7 +30,7 @@ const EVENT_INFO = {
   mapsLink: "https://www.google.com/maps/search/?api=1&query=Av+Estrela+do+Sul+662+Uberlândia",
   contacts: [
     { name: "Bruna", link: "https://wa.me/55556492399739" },
-    { name: "Marina", link: "http://wa.me/5534984186829" }
+    { name: "Cleiton", link: "http://wa.me/5531999509944" }
   ]
 };
 
@@ -442,7 +442,7 @@ className="fixed top-2 left-1/2 z-50 bg-red-600 text-white px-6 py-3 rounded-ful
             </AnimatePresence>
 
             <div className="space-y-4">
-              <label className="text-xs font-black uppercase tracking-[0.2em] text-brand-primary ml-1 block">Quem deve saber primeiro?</label>
+              <label className="text-xs font-black uppercase tracking-[0.2em] text-brand-primary ml-1 block">Pode confirmar aqui</label>
               <div className="grid grid-cols-2 gap-4">
                 {EVENT_INFO.contacts.map((contact) => (
                   <button
