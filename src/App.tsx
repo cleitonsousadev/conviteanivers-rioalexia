@@ -21,6 +21,9 @@ import {
   ShieldCheck
 } from 'lucide-react';
 
+import BemImage from '../public/img/bem.png';
+
+
 // Informações do evento
 const EVENT_INFO = {
   name: "Aléxia Parreiras",
@@ -136,7 +139,7 @@ className="fixed top-2 left-1/2 z-50 bg-red-600 text-white px-6 py-3 rounded-ful
               transition={{ type: "spring", delay: 0.2 }}
               className="w-56 h-56 md:w-72 md:h-72 bg-white p-4 rounded-3xl shadow-2xl relative z-10 overflow-hidden ring-8 ring-brand-primary/5"
             >
-              <img src="/img/bem.png" alt="Aléxia Parreiras" loading="eager" referrerPolicy="no-referrer" className="w-full h-full object-cover rounded-2xl" />
+              <img src={BemImage} alt="Aléxia Parreiras" loading="eager" referrerPolicy="no-referrer" className="w-full h-full object-cover rounded-2xl" />
             </motion.div>
             
             {/* Floating Badges */}
